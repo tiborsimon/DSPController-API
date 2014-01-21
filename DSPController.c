@@ -809,7 +809,7 @@ unsigned char DSPController_get_event() {
 //  E N C O D E R   H A N D L I N G
 //========================================================================
 
-int DSPController_get_encoder(char encoder) {
+Encoder DSPController_get_encoder(char encoder) {
     int ret = 0;
     if (encoder == 1) {
         ret = dspcontroller_encoder_1;
